@@ -10,7 +10,7 @@ export const QuoteBox = ({ randomQuotee, colorRandom, getAllRandom }) => {
 
     <article className='case'>
       <div className="cita">
-        <i style={{ color: colorRandom }}  className="fa-solid fa-quote-left"></i>
+        <i style={{ color: colorRandom }}  className="card__icon  fa-solid fa-quote-left"></i>
         <p style={{ color: colorRandom }} className='case-quote'>{randomQuotee.quote}</p>
       </div>
 
