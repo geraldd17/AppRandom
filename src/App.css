@@ -25,10 +25,20 @@ h1 {
 }
 .case{
     font-family: 'Source Code Pro', monospace;
+ 
 }
+.cita{
+    display: flex;
+ justify-content: flex-end;
+ gap: 0.5rem;
+
+}
+
+
 .case-quote{
     margin-bottom: 10px;
     font-size: 17px;
+   
 }
 .case-author{
     font-style: italic;
